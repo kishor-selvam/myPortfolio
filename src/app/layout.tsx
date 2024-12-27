@@ -31,6 +31,11 @@ export default function RootLayout({
           content="Explore Kishor's portfolio, a skilled software developer specializing in React.js, Node.js, and MySQL."
         />
 
+        <meta
+          name="google-site-verification"
+          content="google-site-verification=IozDyFPc9cI6yOjUI3X7bgkofHFqg1l4FjaWoUHCie4"
+        />
+
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://kishor-dev.vercel.app/" />
