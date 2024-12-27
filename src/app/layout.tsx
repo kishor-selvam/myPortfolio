@@ -31,9 +31,10 @@ export default function RootLayout({
           content="Explore Kishor's portfolio, a skilled software developer specializing in React.js, Node.js, and MySQL."
         />
 
+        {/* google-site-verification: google78293b14704422ff.html */}
         <meta
           name="google-site-verification"
-          content="google-site-verification=IozDyFPc9cI6yOjUI3X7bgkofHFqg1l4FjaWoUHCie4"
+          content="google78293b14704422ff"
         />
 
         {/* Open Graph / Facebook */}
