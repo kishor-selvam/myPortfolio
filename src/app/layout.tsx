@@ -27,13 +27,12 @@ export default function RootLayout({
         {/* Primary Meta Tags */}
         <title>Kishor Portfolio</title>
         <meta
-          name="description"
-          content="Explore Kishor's portfolio, a skilled software developer specializing in React.js, Node.js, and MySQL."
-        />
-
-        <meta
           name="google-site-verification"
           content="xv7webo0ChznMJ9PuO58ngbsxIxe5TPk9glgsLuynn4"
+        />
+        <meta
+          name="description"
+          content="Explore Kishor's portfolio, a skilled software developer specializing in React.js, Node.js, and MySQL."
         />
 
         {/* Open Graph / Facebook */}
