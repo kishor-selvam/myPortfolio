@@ -21,14 +21,6 @@ export const HeroSection = () => {
         <div className="size-[1020px] hero-ring "></div>
         <div className="size-[1220px] hero-ring "></div>
 
-        {/* 
-            shouldOrbit = {true}
-            shouldSpin ={true}
-            spinDuration={}
-            orbitDuration={} 
-            
-            */}
-
         <HeroOrbit
           size={430}
           rotation={-14}
