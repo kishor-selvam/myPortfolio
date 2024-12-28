@@ -1,14 +1,15 @@
 "use client";
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
 import dhruva from "@/assets/images/dhruva.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import finplan from "@/assets/images/finplan.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import technoHackathon from "@/assets/images/Hackathon.png";
 import bharathiConstruction from "@/assets/images/bharathiConstruction.png";
+import bharathienterprises from "@/assets/images/bharathienterprises.png";
+import abcRealtor from "@/assets/images/abcrealtor.png";
+import AiTShirtMaker from "@/assets/images/aiTshirt.png";
+import CodePen from "@/assets/images/codepen.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
-import GrainImage from "@/assets/images/grain.jpg";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 import { useState } from "react";
@@ -20,9 +21,14 @@ const portfolioProjects = [
     title: "Dhruva",
     category: "Professional",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      {
+        title:
+          "Developed the QIC (Quantum Investing Champion) module for Dhruva, a dynamic event-based platform with 8 stages for user participation in teams.",
+      },
+      {
+        title:
+          "Resolved critical bugs, including a year-end issue, ensuring smooth functionality.",
+      },
     ],
     link: "https://app.technofundainvesting.com",
     image: dhruva,
@@ -33,12 +39,45 @@ const portfolioProjects = [
     title: "FinPlan",
     category: "Professional",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      {
+        title:
+          "Implemented key modules: Income, Expense, Assets, Loans, and Insurance in Finplan.",
+      },
+      {
+        title:
+          "Developed Finfit for financial analysis and personalized advice.",
+      },
+      {
+        title:
+          "Enhanced user experience with streamlined financial goal management.",
+      },
     ],
+
     link: "https://finplanonline.com",
     image: finplan,
+  },
+  {
+    company: "Nuvolance Technologies",
+    year: "2023",
+    title: "Techno Hackathon",
+    category: "Professional",
+    results: [
+      {
+        title:
+          "Developed TechnoHackathon, an event-based website with team registration and round-robin rule.",
+      },
+      {
+        title:
+          "Implemented multi-stage workflows for document uploads and user shortlisting.",
+      },
+      {
+        title:
+          "Enabled admin features for winner announcements and gift presentations.",
+      },
+    ],
+
+    link: "#",
+    image: technoHackathon,
   },
   {
     company: "Bharathi Construction",
@@ -46,13 +85,111 @@ const portfolioProjects = [
     title: "Bharathi Construction",
     category: "Freelance",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Built Bharathi Construction website using WordPress." },
+      { title: "Customized and optimized for client needs." },
+      { title: "Delivered a responsive, user-friendly design." },
     ],
     link: "https://bharathiconstruction.com",
     image: bharathiConstruction,
   },
+  {
+    company: "ABC Realtor",
+    year: "2024",
+    title: "Abc Realtor",
+    category: "Freelance",
+    results: [
+      {
+        title: "Developed ABC Realtor, a real estate website using WordPress.",
+      },
+      {
+        title:
+          "Implemented property listing and search features for better user experience.",
+      },
+      {
+        title:
+          "Delivered a responsive and professional design tailored for real estate.",
+      },
+    ],
+
+    link: "https://abcrealtor.co.in/",
+    image: abcRealtor,
+  },
+  {
+    company: "Bharathi Enterprises",
+    year: "2024",
+    title: "Bharathi Enterprises",
+    category: "Freelance",
+    results: [
+      {
+        title:
+          "Created Bharathi Enterprises website for an interior design company using WordPress.",
+      },
+      {
+        title:
+          "Designed and customized pages to highlight services and portfolio.",
+      },
+      { title: "Ensured a responsive and visually appealing user experience." },
+    ],
+    link: "https://bharathienterprises.net/",
+    image: bharathienterprises,
+  },
+
+  {
+    company: "T-CRAFT STUDIO",
+    year: "2023",
+    title: "Ai T-Shirt Maker",
+    category: "Others",
+    results: [
+      { title: "Developed AI T-Shirt Maker app using React and Three.js." },
+      {
+        title:
+          "Integrated 3D design features for customizable T-shirt graphics.",
+      },
+      {
+        title:
+          "Enhanced user experience with real-time preview and interactive design tools.",
+      },
+    ],
+    link: "https://ai-tshirt-maker.netlify.app/",
+    image: AiTShirtMaker,
+  },
+  {
+    company: "CodePen Clone",
+    year: "2024",
+    title: "A site same as like Codepen",
+    category: "Others",
+    results: [
+      {
+        title:
+          "Built a CodePen clone using React.js for real-time code editing.",
+      },
+      { title: "Implemented live preview for HTML, CSS, and JavaScript code." },
+      { title: "Enabled user to create, save, and share projects seamlessly." },
+    ],
+
+    link: "https://code-editor-htmlcssjs.netlify.app/",
+    image: CodePen,
+  },
+
+  // {
+  //   company: "Miracle Clickz",
+  //   year: "2024",
+  //   title: "Miracle Clickz",
+  //   category: "Freelance",
+  //   results: [
+  //     {
+  //       title:
+  //         "Developed Miracle Clickz, a real estate website for showcasing properties.",
+  //     },
+  //     {
+  //       title: "Implemented features for property listings and user inquiries.",
+  //     },
+  //     { title: "Delivered a responsive design to enhance user engagement." },
+  //   ],
+
+  //   link: "https://miracleclickz.com/",
+  //   image: bharathiConstruction,
+  // },
 ];
 
 export const ProjectsSection = () => {

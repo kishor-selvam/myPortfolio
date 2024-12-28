@@ -3,12 +3,18 @@ import { Card } from "@/components/Card";
 import { SectionHeader } from "@/components/SectionHeader";
 import bookImage from "@/assets/images/book-cover.png";
 import Image from "next/image";
-import JavaScriptIcon from "@/assets/icons/square-js.svg";
 import HTMLIcon from "@/assets/icons/html5.svg";
 import CSSIcon from "@/assets/icons/css3.svg";
+import JavaScriptIcon from "@/assets/icons/square-js.svg";
 import ReactIcon from "@/assets/icons/react.svg";
-import ChromeIcon from "@/assets/icons/chrome.svg";
+import NodejsIcon from "@/assets/icons/node-js.svg";
+import ReduxIcon from "@/assets/icons/redux.svg";
+import JavaIcon from "@/assets/icons/java.svg";
+import PostManIcon from "@/assets/icons/postman.svg";
 import GithubIcon from "@/assets/icons/github.svg";
+import MySQLICON from "@/assets/icons/mysql.svg";
+import MaterialUIIcon from "@/assets/icons/material-ui.svg";
+import TailWindCssIcon from "@/assets/icons/tailwindcss.svg";
 import mapImage from "@/assets/images/mymap.png";
 import smileMemoji from "@/assets/images/memoji-smile.png";
 import { CardHeader } from "@/components/CardHeader";
@@ -18,10 +24,6 @@ import { useRef } from "react";
 
 const toolBoxItems = [
   {
-    title: "JavaScript",
-    iconType: JavaScriptIcon,
-  },
-  {
     title: "HTML5",
     iconType: HTMLIcon,
   },
@@ -30,12 +32,41 @@ const toolBoxItems = [
     iconType: CSSIcon,
   },
   {
+    title: "JavaScript",
+    iconType: JavaScriptIcon,
+  },
+  {
+    title: "Java",
+    iconType: JavaIcon,
+  },
+  {
     title: "React",
     iconType: ReactIcon,
   },
   {
-    title: "Chrome",
-    iconType: ChromeIcon,
+    title: "Redux",
+    iconType: ReduxIcon,
+  },
+  {
+    title: "Node js",
+    iconType: NodejsIcon,
+  },
+  {
+    title: "MySQL",
+    iconType: MySQLICON,
+  },
+  {
+    title: "Tailwind CSS",
+    iconType: TailWindCssIcon,
+  },
+  {
+    title: "Material UI",
+    iconType: MaterialUIIcon,
+  },
+
+  {
+    title: "POSTMAN",
+    iconType: PostManIcon,
   },
   {
     title: "Github",
