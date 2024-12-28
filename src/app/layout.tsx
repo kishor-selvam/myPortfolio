@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
+      <Head>
         {/* Primary Meta Tags */}
         <title>Kishor Portfolio</title>
         <meta
@@ -71,7 +71,7 @@ export default function RootLayout({
           content="Kishor, Software Developer, React.js, Node.js, MySQL, Portfolio"
         />
         <meta name="author" content="Kishor" />
-      </head>
+      </Head>
       <body
         className={twMerge(
           inter.variable,
