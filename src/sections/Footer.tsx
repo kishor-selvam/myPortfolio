@@ -6,6 +6,10 @@ const footerLinks = [
     href: "https://github.com/kishor-selvam",
   },
   {
+    title: "LeetCode",
+    href: "https://leetcode.com/u/kishorf5/",
+  },
+  {
     title: "LinkedIn",
     href: "https://www.linkedin.com/in/kishor-selvam/",
   },
