@@ -3,6 +3,7 @@ import { Inter, Calistoga } from "next/font/google";
 import "./globals.css";
 import { twMerge } from "tailwind-merge";
 import Head from "next/head";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const calistoga = Calistoga({
@@ -71,7 +72,28 @@ export default function RootLayout({
           content="Kishor, Software Developer, React.js, Node.js, MySQL, Portfolio"
         />
         <meta name="author" content="Kishor" />
+
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-NT8W98X0GS"
+          strategy="afterInteractive"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+                            window.dataLayer = window.dataLayer || [];
+                            function gtag(){dataLayer.push(arguments);}
+                            gtag('js', new Date());
+                            gtag('config', 'G-NT8W98X0GS', {
+                                page_path: window.location.pathname,
+                            });
+                        `,
+          }}
+        />
       </Head>
+
       <body
         className={twMerge(
           inter.variable,
