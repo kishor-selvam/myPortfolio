@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
+      <head>
         {/* Primary Meta Tags */}
         <title>Kishor Portfolio</title>
         <meta
@@ -83,16 +83,16 @@ export default function RootLayout({
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
-                            window.dataLayer = window.dataLayer || [];
-                            function gtag(){dataLayer.push(arguments);}
-                            gtag('js', new Date());
-                            gtag('config', 'G-NT8W98X0GS', {
-                                page_path: window.location.pathname,
-                            });
-                        `,
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-NT8W98X0GS', {
+                  page_path: window.location.pathname,
+              });
+            `,
           }}
         />
-      </Head>
+      </head>
 
       <body
         className={twMerge(
