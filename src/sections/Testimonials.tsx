@@ -11,13 +11,13 @@ import { Fragment } from "react";
 
 const testimonials = [
   {
-    name: "Mr. Kamalakannan V",
+    name: "Anonymous",
     position: "Founder and CEO @ Bharathi Construction",
     text: "Working with Kishor was an absolute pleasure! He transformed our vision for Bharathi Construction's online presence into a modern, user-friendly, and professional website. Highly recommend his expertise!",
     avatar: memojiAvatar1,
   },
   {
-    name: "Mr. Sameshwaran",
+    name: "Anonymous",
     position: "Founder of @ MiracleClickz",
     text: "Kishor delivered beyond our expectations for the MiracleClickz website! The attention to detail, creativity, and technical expertise he brought to the project were outstanding.",
     avatar: memojiAvatar3,
